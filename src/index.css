@@ -1,68 +1,65 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Liter&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+:root{
+  font-size: 16px;
+  line-height: 1.7rem;
+  --primary-color: #0A2540;
+  --secondary-color: #FAAD1B;
+  --secondary-bg: #fff;
+  --primary-text-color: #252525;
+}
+body {
+    font-family: "Liter", sans-serif;
+  font-variant-ligatures: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+p, a, li{
+  font-family: "Open Sans", sans-serif;
+  color: var(--primary-text-color);
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+/* Container */
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+ .container {
+  max-width: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (min-width: 576px) {
+   .container {
+    max-width: 540px;
   }
-  a:hover {
-    color: #747bff;
+}
+
+@media (min-width: 768px) {
+   .container {
+    max-width: 720px;
   }
-  button {
-    background-color: #f9f9f9;
+}
+
+@media (min-width: 992px) {
+   .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+   .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1300px) {
+   .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1440px) {
+   .container {
+    max-width: 1300px;
   }
 }
