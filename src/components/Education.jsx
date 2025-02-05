@@ -1,7 +1,7 @@
 export default function Education(){
     return <section className="pf-education">
         <div className="container">
-            <h3 className="about-title pf-edu-title">Education & Work</h3>
+            <h3 className="pf-h3-title">Education & Work</h3>
             <div className="pf-edu-grid">
                 <div className="education-box">
                     <h4 className="edu-box-title">Education</h4>
