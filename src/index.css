@@ -7,7 +7,7 @@
   --secondary-color: #FAAD1B;
   --secondary-bg: #fff;
   --primary-text-color: #252525;
-  color: var(--primary-text-color);
+  --section-padding: 0 40px;
 }
 html {
   scroll-behavior: smooth;
@@ -32,6 +32,9 @@ h1{
 }
 h2{
   font-size: 2rem;
+}
+h3{
+  font-size: 1.8rem;
 }
 
 /* Hero Section */
@@ -106,6 +109,47 @@ h2{
   margin-top: 40px;
 }
 
+/* About Section */
+
+.pf-about-section{
+  background-color: #0A2540;
+}
+.pf-about-grid{
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  align-items: center;
+  grid-gap: 40px;
+}
+.about-title {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.about-title span {
+  display: block;
+  width: 5%;
+  border-top: 2px solid var(--secondary-color);
+  margin-right: 10px;
+}
+.about-desc{color: #fff;}
+.about-exp-flex {display: flex;}
+.about-experience{margin-right: 40px;}
+.exp-count {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: normal;
+}.exp-count-sub {
+  margin: 0;
+  font-weight: lighter;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.pf-about-section .ghost-cta{
+  color: #fff;
+  border-color: var(--secondary-color);
+}
 
 /* Container */
 
