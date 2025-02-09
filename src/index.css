@@ -242,7 +242,7 @@ p.batch-title{
   padding: var(--section-padding);
   background-color: var(--primary-color);
 }
-.pf-services .pf-h3-title{color: var(--secondary-bg);}
+.pf-services .pf-h3-title{color: var(--secondary-bg);margin-bottom: 20px;}
 .service-box-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -262,21 +262,6 @@ img.service-icon {
   margin: 10px 0;
   color: var(--primary-text-color);
 }
-.service-desc {
-  display: -webkit-box;
-  -webkit-line-clamp: 3; 
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%; 
-  white-space: normal; 
-  word-break: break-word; 
-  max-height: 13rem; 
-  margin: 0;
-}
-.service-desc.active{
-  display: block;
-}
 .learn-more-cta{
   background-color: transparent;
   border: none;
@@ -294,6 +279,100 @@ img.service-icon {
 }
 .learn-more-cta:hover:after{
   margin-left: 10px;
+}
+.pf-h4-title{
+  color: var(--secondary-bg);
+  text-align: center;
+  font-weight: normal;
+}
+.pf-h4-title span{font-weight: 600;}
+
+/* Projects */
+
+.pf-latest-projects{
+  padding: var(--section-padding);
+  background-color: var(--secondary-bg);
+}
+.pf-latest-projects .pf-h3-title{margin-bottom: 20px;}
+.pf-latest-projects .pf-h4-title{color: var(--primary-color);}
+.pf-latest-projects .pf-h4-title span{color: var(--secondary-color);font-style: italic;font-weight: normal;}
+.pf-progect-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+.pf-project-box {
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  box-sizing: var(--box-shadow);
+}
+.platform-flex {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+p.platform-title {
+  margin: 0;
+  background: var(--secondary-color);
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: .9rem;
+  font-weight: 600;
+}
+.project-title{text-align: left;}
+.project-title span {font-weight: normal;}
+.project-cta{
+  display: flex;
+  gap: 10px;
+  font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.project-cta{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.project-cta a {
+  display: flex;
+  gap: 10px;
+  padding: 8px 20px 8px 8px;
+  background: var(--primary-color);
+  border-radius: 50px;
+  color: #fff;
+}
+.project-cta a::before{
+  content: url(assets/behance-logo.svg);
+  line-height: 0;
+}
+.project-cta a.live-cta::before{
+  content: url(assets/live-url.svg);
+}
+.view-more-cta .learn-more-cta{
+  margin: auto;
+}
+.view-more-cta {
+  text-align: center;
+  margin-top: 40px;
+}
+.view-more-cta .learn-more-cta{
+  background-color: var(--primary-color);
+}
+.view-more-cta .learn-more-cta {
+  background-color: var(--primary-color);
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 5px 20px 5px 5px;
+  display: inline-flex;
+  border-radius: 50px;
+}
+.view-more-cta .learn-more-cta::before{
+  content: url(assets/view-more-behance.svg);
+  line-height: 0;
+  margin-right: 10px;
 }
 
 /* Container */
