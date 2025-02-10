@@ -105,9 +105,6 @@ export default function Skills() {
                 </div>
           </div>
         </div>
-        <div className="pf-roles">
-            <h3 className="pf-h3-title">Roles and Responsibilities</h3>
-        </div>
       </div>
     </section>
   );

@@ -392,6 +392,58 @@ p.platform-title {
 .pf-skills .platform-flex{margin-bottom: 0;}
 .pf-roles  .pf-h3-title{margin-top: 40px;}
 
+/* Contact */
+
+dialog.contact-dialog{
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  width: 20%;
+}
+dialog.contact-dialog .pf-h3-title{color: var(--box-color);margin-bottom: 30px;}
+dialog.contact-dialog:-internal-dialog-in-top-layer::backdrop {
+  position: fixed;
+  inset: 0px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.pf-contact-grid {
+  display: grid;
+  grid-template-columns: 70px auto;
+  grid-gap: 20px;
+}
+.pf-contact-title, .pf-contact-details{
+  color: var(--box-color);
+  margin: 0;
+}
+.popup-close {
+  border: none;
+  background: #B82132;
+  border-radius: 50px;
+  display: flex;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.pf-conact-cta-flex {
+  display: flex;
+  grid-column: span 2;
+  align-items: center;
+}
+a.contact-behnace {
+  line-height: 0;
+}
+a.contact-cv {
+  color: #fff;
+  border: 1px solid;
+  border-radius: 50px;
+  margin-left: 20px;
+  padding: 5px 20px;
+}
+
 /* Container */
 
  .container {
