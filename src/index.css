@@ -121,6 +121,24 @@ h5 {
 .hero-cta-grid{
   margin-top: 40px;
 }
+.pf-header-profile {
+  position: relative;
+}
+
+.pf-header-profile:before {
+  content: url(assets/Profile-skills-pop.svg);
+  position: absolute;
+  animation: bounceAnimation 3s ease-in-out infinite;
+}
+
+@keyframes bounceAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 
 /* About Section */
 
@@ -180,6 +198,26 @@ h5 {
 .pf-about-section .ghost-cta{
   color: var(--secondary-bg);
   border-color: var(--secondary-color);
+}
+.pf-about-img {
+  position: relative;
+}
+
+.pf-about-img:before {
+  content: url(assets/Jenson-Profile-About-lang.svg);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  animation: spinZoom 10s ease-in-out infinite;
+}
+
+@keyframes spinZoom {
+  0%, 100% {
+    transform: rotate(0deg) scale(0.8);
+  }
+  50% {
+    transform: rotate(180deg) scale(1);
+  }
 }
 
 /* Education & Work */

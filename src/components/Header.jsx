@@ -34,6 +34,7 @@ export default function Header() {
               alt="Profile Image"
               width="650"
               height="496"
+              className="pf-profile-img"
             />
           </div>
         </div>
