@@ -29,7 +29,7 @@ export default function About() {
             </div>
                         <div className='hero-cta-grid'>
                             <a href={ResumePDF} target='_blank' className='view-resume'><span>Download CV</span></a>
-                            <a href="#contact" className='ghost-cta'>Contact Now</a>
+                            
                         </div>
           </div>
         </div>

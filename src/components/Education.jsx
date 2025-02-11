@@ -1,5 +1,5 @@
 export default function Education(){
-    return <section className="pf-education">
+    return <section className="pf-education" id="education">
         <div className="container">
             <h3 className="pf-h3-title">Education & Work</h3>
             <div className="pf-edu-grid">
@@ -11,7 +11,7 @@ export default function Education(){
                         <p className="batch-sub-title">St. Joseph College of Engineering (Anna University)</p>
                     </div>
                 </div>
-                <div className="work-box">
+                <div className="work-box" id="experience">
                     <h4 className="work-box-title">Work Experience</h4>
                     <div className="exp-ctn-wrap">
                         <p className="batch-title">AstroVed.com</p>
