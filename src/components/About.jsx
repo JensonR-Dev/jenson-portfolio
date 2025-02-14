@@ -10,8 +10,9 @@ export default function About() {
             <img
               src={ProfileImageAbout}
               alt="Profile Image"
-              width="600"
-              height="600"
+              width="343"
+              height="386"
+              className="about-profile-img"
             />
           </div>
           <div className="pf-about-content">

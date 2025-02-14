@@ -29,10 +29,16 @@ export default function Header() {
             </div>
           </div>
           <div className="pf-header-profile">
+            <div className="profile-profile-flot">
+            <span className="image-skills react-sk">React.Js</span>
+            <span className="image-skills web-sk">Web Design</span>
+            <span className="image-skills front-sk">Frontend Developer</span>
+            <span className="image-skills ui-sk">UI Developer</span>
+            </div>
             <img
               src={ProfileImage}
               alt="Profile Image"
-              width="650"
+              width="572"
               height="496"
               className="pf-profile-img"
             />

@@ -58,7 +58,7 @@ dialog.contact-dialog{
     position: fixed;
     bottom: 20px;
     width: 190px;
-    right: 50px;
+    right: 2%;
     z-index: 1030;
     transition: 500ms ease;
     background: var(--secondary-color);
