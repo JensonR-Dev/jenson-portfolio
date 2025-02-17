@@ -19,7 +19,7 @@ function App() {
       <Projects />
       <Skills />
       <Footer />
-      <Contact />
+      {/* <Contact /> */}
     </>
   )
 }

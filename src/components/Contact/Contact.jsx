@@ -38,7 +38,7 @@ export default function Contact() {
             <p className="pf-contact-title">Phone</p>
             <a
               href="tel:+91 8124771225"
-              class="pf-contact-details"
+              className="pf-contact-details"
               target="_blank"
             >
               +91 8124771225
@@ -46,12 +46,12 @@ export default function Contact() {
             <p className="pf-contact-title">Email</p>
             <a
               href="mailto:jenson.r1598@gmail.com"
-              class="pf-contact-details"
+              className="pf-contact-details"
               target="_blank"
             >
               jenson.r1598@gmail.com
             </a>
-            <div class="pf-conact-cta-flex">
+            <div className="pf-conact-cta-flex">
               <a
                 href="https://www.behance.net/jenson_r"
                 target="_blank"
