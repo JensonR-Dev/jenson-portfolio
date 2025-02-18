@@ -1,12 +1,15 @@
 /* Contact */
 
+:root{
+  --box-width:30%;
+}
 dialog.contact-dialog{
     background-color: var(--primary-color);
     border: none;
     border-radius: 10px;
     padding: 20px;
-    position: relative;
-    width: 20%;
+    position: fixed;
+    width: var(--box-width);
   }
   dialog.contact-dialog .pf-h3-title{color: var(--box-color);margin-bottom: 30px;}
   dialog.contact-dialog:-internal-dialog-in-top-layer::backdrop {
@@ -63,3 +66,6 @@ dialog.contact-dialog{
     transition: 500ms ease;
     background: var(--secondary-color);
 }
+@media (max-width: 991px){:root{--box-width:50%;}}
+@media (max-width: 767px){:root{--box-width:80%;}}
+@media (max-width: 460px){h3{font-size: 1.3rem;}.pf-contact-grid{grid-template-columns: repeat(2,auto);}}

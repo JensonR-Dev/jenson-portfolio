@@ -89,7 +89,7 @@ h5 {
 .view-resume {
   background-color: var(--secondary-color);
   border-radius: 50px;
-  padding: 12px 4px 14px 3px;
+  padding: 11px 4px 14px 3px;
   color: var(--secondary-bg);
   font-size: 1.3rem;
   display: block;
@@ -554,6 +554,7 @@ p.platform-title {
   .hero-cta-grid {margin-top: 20px;}
   .pf-about-img:before {left: 50px;}
   .service-box{grid-column: span 2;}
+  dialog.contact-dialog{width: 50%;}
 }
 @media (max-width: 675px){
   :root{
@@ -579,11 +580,18 @@ display: none;
 .footer-copyright{margin: 0;}
 .footer-powerby{margin: 0;justify-content: flex-start;        margin-top: 10px;}
 .profile-profile-flot{display: none;}
+dialog.contact-dialog{width: 80%;}
 }
 @media (max-width: 460px){
   :root{    --section-padding: 30px 0;}
-  h1{font-size: 3rem;    margin-bottom: 10px;}
-  .portfolio-hero h2 { line-height: 2.5rem;}
+  h1{font-size: 2.8rem;    margin-bottom: 10px;}
+  .portfolio-hero h2 { line-height: 2.3rem;}
+  .work-box p.batch-title{grid-column: span 2;}
+  .work-box p.year-title{order: 3;}
+  .work-box p.batch-sub-title {grid-column: inherit;}
+  .project-cta{flex-direction: column;}
+  .project-cta a{width: fit-content;}
+  .hero-cta-grid{grid-template-columns: 1fr;}
 }
 
 /* Container */
