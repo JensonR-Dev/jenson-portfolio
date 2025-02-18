@@ -20,6 +20,9 @@ export default function Navbar() {
     };
   }, []);
 
+  // Function to close menu when a link is clicked
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <div className={`pf-navbar-main ${scrolled ? "scroll" : ""}`}>
       <div className="container">
@@ -32,7 +35,7 @@ export default function Navbar() {
               </a>
             </li>
 
-            {/* Desktop Navigation - Visible on screens above 767px */}
+            {/* Desktop Navigation */}
             <div className="rgt-nav desktop">
               <li><a href="#about">About</a></li>
               <li><a href="#education">Education</a></li>
@@ -43,21 +46,21 @@ export default function Navbar() {
               <li><a href={ResumePDF} className="nav-cv" target="_blank">View CV</a></li>
             </div>
 
-            {/* Hamburger Menu - Visible on screens below 767px */}
+            {/* Hamburger Menu */}
             <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
               {menuOpen ? <FiX size={30} /> : <FiMenu size={30} />}
             </button>
           </ul>
 
-          {/* Mobile Navigation - Visible only on screens below 767px */}
+          {/* Mobile Navigation */}
           <div className={`rgt-nav mobile ${menuOpen ? "active" : ""}`}>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Work</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href={ResumePDF} className="nav-cv"  target="_blank">View CV</a></li>
+            <li><a href="#about" onClick={closeMenu}>About</a></li>
+            <li><a href="#education" onClick={closeMenu}>Education</a></li>
+            <li><a href="#experience" onClick={closeMenu}>Work</a></li>
+            <li><a href="#services" onClick={closeMenu}>Services</a></li>
+            <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
+            <li><a href="#skills" onClick={closeMenu}>Skills</a></li>
+            <li><a href={ResumePDF} className="nav-cv" target="_blank" onClick={closeMenu}>View CV</a></li>
           </div>
         </nav>
       </div>

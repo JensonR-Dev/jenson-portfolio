@@ -81,7 +81,7 @@
 }
 
 /* CV Button */
-.rgt-nav.desktop .nav-cv {
+.rgt-nav.desktop .nav-cv, .rgt-nav.mobile .nav-cv  {
     background: var(--secondary-color);
     border-radius: 50px;
     padding: 5px 20px;

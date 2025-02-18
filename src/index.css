@@ -548,6 +548,7 @@ p.platform-title {
   .hero-cta-grid {margin-top: 50px;}
   .service-box-grid{grid-template-columns: var(--grid-2-col);}
   .service-box-grid div:last-child:nth-child(odd){grid-column: span 2;}
+  .pf-head-grid{margin-top:70px;}
 }
 @media (max-width: 767px){
   .profile-profile-flot{right: 40px;}
