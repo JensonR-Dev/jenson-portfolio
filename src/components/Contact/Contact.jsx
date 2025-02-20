@@ -76,7 +76,7 @@ export default function Contact() {
         </form>
       </dialog>
       <button onClick={handleClick} className={`ghost-cta ${scrolled ? "bottom" : ""}`}>
-        Contact Now
+      Let’s Connect
       </button>
     </>
   );

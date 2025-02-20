@@ -15,14 +15,11 @@ export default function Header() {
             </h1>
             <h2>Web Designer & Front-end Developer</h2>
             <p className="hero-description">
-              I&rsquo;m an experienced Web Designer with{" "}
-              <strong>5 years</strong> of expertise in designing, developing,
-              and launching 100+ websites and landing pages, following the
-              latest design trends to create impactful digital experiences.
+              I&rsquo;m a passionate Web Designer with <b>5 years of experience</b> in designing, developing, and launching <b>200+ websites and landing pages</b>. I specialize in crafting modern, user-friendly interfaces while following the latest design trends to create <b>impactful digital experiences</b>.
             </p>
             <div className="hero-cta-grid">
               <a href={ResumePDF} target="_blank" className="view-resume">
-                <span>Download CV</span>
+                <span>Download My CV </span>
               </a>
               <Contact />
             </div>
@@ -37,7 +34,7 @@ export default function Header() {
             <picture>
               <source
                 media="(max-width:675px)"
-                srcset={ProfileImageResp}
+                srcSet={ProfileImageResp}
                 className="pf-profile-img-resp"
               />
               <img

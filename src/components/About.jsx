@@ -11,7 +11,7 @@ export default function About() {
             <picture>
               <source
                 media="(max-width:675px)"
-                srcset={ProfileImageAboutResp}
+                srcSet={ProfileImageAboutResp}
                 className="about-profile-img-resp"
               />
               <img
@@ -26,23 +26,13 @@ export default function About() {
           <div className="pf-about-content">
             <h3 className="pf-h3-title about-title ">About Me</h3>
             <p className="about-desc">
-              Creative and detail-oriented Web Designer with{" "}
-              <strong>5 Years</strong> of experience translating client visions
-              into innovative and visually appealing websites. Proficient in
-              front-end development languages and tools such as{" "}
-              <strong>
-                HTML, CSS, JavaScript, React.js, Wordpress, Bootstrap, and
-                Webflow
-              </strong>
-              , with a experience in design softwares like{" "}
-              <strong>Abobe Photoshop, Illustrator and Figma</strong>. Adept at
-              collaborating with cross-functional teams to deliver high-quality
-              digital solutions that meet client objectives. Proven track record
-              of managing multiple projects simultaneously, meeting tight
-              deadlines, and exceeding client expectations. Passionate about
-              staying abreast of industry trends and emerging technologies to
-              consistently deliver cutting-edge designs.
+            <b>Creative & Detail-Oriented Web Designer | Front-end Developer</b>
             </p>
+            <p className="about-desc">
+            I’m <b>Jenson R</b>, a <b>Web Designer & Front-end Developer</b> with <b>5+ years of experience</b> translating client visions into visually appealing, high-performing websites. I specialize in <b>front-end development</b> using HTML, CSS, JavaScript, React.js, WordPress, Bootstrap, and Webflow, along with expertise in <b>design tools</b> like Adobe Photoshop, Illustrator, and Figma.
+            </p>
+            <p className="about-desc">With a <b>proven track record of 200+ landing pages</b> designed and developed, I excel at creating seamless, user-friendly experiences that align with business goals. I collaborate closely with cross-functional teams to deliver high-quality digital solutions, ensuring every project meets and exceeds expectations.</p>
+            <p className="about-desc">I’m passionate about staying ahead of the curve, continuously exploring <b>emerging technologies and design trends</b> to craft cutting-edge, innovative digital experiences.</p>
             <div className="about-exp-flex">
               <div className="about-experience">
                 <p className="exp-count">5+</p>
@@ -57,7 +47,7 @@ export default function About() {
             </div>
             <div className="hero-cta-grid">
               <a href={ResumePDF} target="_blank" className="view-resume">
-                <span>Download CV</span>
+                <span>Download My CV</span>
               </a>
             </div>
           </div>
