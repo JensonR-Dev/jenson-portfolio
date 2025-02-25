@@ -1,6 +1,6 @@
 import ProfileImage from "../assets/Jenson-Profile.jpg";
 import ProfileImageResp from "../assets/Jenson-Profile-Resp.jpg";
-import ResumePDF from "../assets/Jenson-2024-Resume.pdf";
+import ResumePDF from "../assets/Jenson-Resume-Online-2025.pdf";
 import Contact from "./Contact/Contact";
 
 export default function Header() {

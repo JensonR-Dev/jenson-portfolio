@@ -1,6 +1,6 @@
 import ProfileImageAbout from "../assets/Jenson-Profile-About.jpg";
 import ProfileImageAboutResp from "../assets/Jenson-Profile-About-Responsive.jpg";
-import ResumePDF from "../assets/Jenson-2024-Resume.pdf";
+import ResumePDF from "../assets/Jenson-Resume-Online-2025.pdf";
 
 export default function About() {
   return (

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Logo from "../../assets/Jenson-logo.svg";
-import ResumePDF from "../../assets/Jenson-2024-Resume.pdf";
+import ResumePDF from "../../assets/Jenson-Resume-Online-2025.pdf";
 import { FiMenu, FiX } from "react-icons/fi"; // Importing icons
 import "./Navbar.css";
 
