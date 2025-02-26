@@ -14,8 +14,6 @@ const ServiceBox = ({ icon, title, description }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const toggleReadMore = () => setIsExpanded(!isExpanded);
 
-  const shortDesc = description.slice(0, 100) + "...";
-
   return (
     <div className="service-box">
       <img

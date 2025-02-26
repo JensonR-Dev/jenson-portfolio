@@ -1,6 +1,7 @@
 import Close from "../../assets/close-icon.svg";
 import "./Contact.css";
 import Behance from "../../assets/contact-behance-icon.svg";
+import ResumePDF from "../../assets/Jenson-Resume-Online-2025.pdf";
 import { useRef, useState, useEffect } from "react";
 
 export default function Contact() {
@@ -59,13 +60,10 @@ export default function Contact() {
               >
                 <img src={Behance} alt="Behance" width="40" height="40" />
               </a>
-              <a
-                href="http://localhost:5173/jenson-portfolio/src/assets/Jenson-2024-Resume.pdf"
-                target="_blank"
-                className="contact-cv"
-              >
-                View CV
-              </a>
+                            <a href={ResumePDF} target="_blank" className="view-resume"                 target="_blank"
+                className="contact-cv">
+                              <span>Download My CV</span>
+                            </a>
             </div>
           </div>
         </div>
