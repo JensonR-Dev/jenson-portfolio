@@ -60,8 +60,7 @@ export default function Contact() {
               >
                 <img src={Behance} alt="Behance" width="40" height="40" />
               </a>
-                            <a href={ResumePDF} target="_blank" className="view-resume"                 target="_blank"
-                className="contact-cv">
+                            <a href={ResumePDF} target="_blank" className="contact-cv">
                               <span>Download My CV</span>
                             </a>
             </div>
