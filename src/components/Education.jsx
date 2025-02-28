@@ -15,7 +15,7 @@ export default function Education(){
                     <h4 className="work-box-title">Work Experience</h4>
                     <div className="exp-ctn-wrap">
                         <p className="batch-title">Web Designer</p>
-                        <p className="year-title">2020 - Current</p>
+                        <p className="year-title">2020 - Present</p>
                         <a href="https://www.astroved.com/" target="_black" className="batch-sub-title">AstroVed.com</a>
                     </div>
                 </div>
