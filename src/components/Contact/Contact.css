@@ -66,6 +66,11 @@ dialog.contact-dialog{
     transition: 500ms ease;
     background: var(--secondary-color);
 }
+.social-media-contant{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+}
 @media (max-width: 991px){:root{--box-width:50%;}}
 @media (max-width: 767px){:root{--box-width:80%;}}
 @media (max-width: 460px){h3{font-size: 1.3rem;}.pf-contact-grid{grid-template-columns: repeat(2,auto);}}

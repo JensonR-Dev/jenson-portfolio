@@ -1,6 +1,7 @@
 import Close from "../../assets/close-icon.svg";
 import "./Contact.css";
 import Behance from "../../assets/contact-behance-icon.svg";
+import Linkedin from "../../assets/contact-linkedin.svg";
 import ResumePDF from "../../assets/Jenson-Resume-Online-2025.pdf";
 import { useRef, useState, useEffect } from "react";
 
@@ -53,13 +54,22 @@ export default function Contact() {
               jenson.r1598@gmail.com
             </a>
             <div className="pf-conact-cta-flex">
-              <a
+          <div className="social-media-contant">
+          <a
                 href="https://www.behance.net/jenson_r"
                 target="_blank"
                 className="contact-behnace"
               >
                 <img src={Behance} alt="Behance" width="40" height="40" />
               </a>
+              <a
+                href="https://www.linkedin.com/in/jenson-r-371a96353/"
+                target="_blank"
+                className="contact-behnace"
+              >
+                <img src={Linkedin} alt="Linkedin" width="40" height="40" />
+              </a>
+          </div>
                             <a href={ResumePDF} target="_blank" className="contact-cv">
                               <span>Download My CV</span>
                             </a>

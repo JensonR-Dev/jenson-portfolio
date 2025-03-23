@@ -73,6 +73,7 @@ export default function Skills() {
             <p className="platform-title">Lighthouse </p>
             <p className="platform-title">Zoho Projects</p>
             <p className="platform-title">Cross-Browser Compatibility</p>
+            <p className="platform-title">Browserstack</p>
                 </div>
           </div>
           <div className="service-box">
@@ -100,8 +101,8 @@ export default function Skills() {
             <h5 className="service-title">Debug & Version Control</h5>
             <div className="platform-flex">
             <p className="platform-title">Browser DevTools</p>
+            <p className="platform-title">React Developer Tools</p>
             <p className="platform-title">GitHub</p>
-            <p className="platform-title">Wordpress</p>
                 </div>
           </div>
         </div>
